@@ -7,7 +7,7 @@
 }
 
 .projectPage-header {
-  height: 35vh;
+  height: 20vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 992px) {
   .projectPage-header {
-    height: 25vh;
+    height: 20vh;
     width: 100%;
     display: flex;
     align-items: center;

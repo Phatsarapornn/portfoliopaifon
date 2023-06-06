@@ -1,11 +1,13 @@
 import { Container } from '@mui/material';
 import React, { useContext } from 'react';
-import education from '../../../assets/lottie/education.json';
+// import education from '../../../assets/lottie/education.json';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { educationData } from '../../../data/educationData';
 import AnimationLottie from '../../helper/animation-lottie';
 import EducationCard from './education-card';
 import './education.css';
+
+import educationpic from '../../../assets/lottie/education/142417-girl-dancing-learning-app-lottie-json-animation.json';
 
 function Education() {
 
@@ -15,7 +17,7 @@ function Education() {
             <Container className="education" id="resume">
                 <div className="education-body">
                     <div className="education-image">
-                        <AnimationLottie animationPath={education} />
+                        <AnimationLottie animationPath={educationpic} />
                     </div>
                     <div className="education-description">
                         <h1 style={{ color: theme.primary }}>Education</h1>
